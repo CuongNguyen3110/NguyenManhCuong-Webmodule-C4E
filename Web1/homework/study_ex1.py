@@ -2,7 +2,7 @@ from flask import Flask, redirect, render_template
 
 web = Flask(__name__)
 
-@web.route("/about-me")
+@web.route("/aboutme")
 def about_me():
     me = {
         "name": "Nguyen Manh Cuong",
